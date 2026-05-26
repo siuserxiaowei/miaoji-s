@@ -54,7 +54,24 @@ npx -y skills add <GitHub 仓库> -g --skill <skill 名字> -y --full-depth
 
 另外提醒一句：Skill 会影响 Agent 的工作方式，安装陌生来源前要看来源、风险提示和仓库信誉。不要把“能装”当成“都该装”。
 
-## 1. frontend-design：让 Codex 别再做模板感页面
+## 10 个 Skill 外链
+
+如果你想先看原始来源，这 10 个 Skill 都在 GitHub：
+
+| Skill | 外链 |
+|---|---|
+| `frontend-design` | https://github.com/anthropics/skills/tree/main/skills/frontend-design |
+| `cache-components` | https://github.com/vercel/next.js/tree/canary/.claude-plugin/plugins/cache-components/skills/cache-components |
+| `fullstack-developer` | https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/awesome_agent_skills/fullstack-developer |
+| `frontend-code-review` | https://github.com/langgenius/dify/tree/main/.agents/skills/frontend-code-review |
+| `code-reviewer` | https://github.com/google-gemini/gemini-cli/tree/main/.gemini/skills/code-reviewer |
+| `webapp-testing` | https://github.com/anthropics/skills/tree/main/skills/webapp-testing |
+| `pr-creator` | https://github.com/google-gemini/gemini-cli/tree/main/.gemini/skills/pr-creator |
+| `fix` | https://github.com/facebook/react/tree/main/.claude/skills/fix |
+| `update-docs` | https://github.com/vercel/next.js/tree/canary/.claude/skills/update-docs |
+| `find-skills` | https://github.com/vercel-labs/skills/tree/main/skills/find-skills |
+
+## 1. [frontend-design](https://github.com/anthropics/skills/tree/main/skills/frontend-design)：让 Codex 别再做模板感页面
 
 这个 Skill 适合做网页、组件、落地页、后台界面、HTML 原型。
 
@@ -68,7 +85,7 @@ npx -y skills add <GitHub 仓库> -g --skill <skill 名字> -y --full-depth
 
 小白最容易忽略的是：不要只说“好看一点”。你要让 Codex 先定方向，比如“工具型后台”“面向创作者的内容工作台”“高密度数据看板”。方向越清楚，页面越不像套壳。
 
-## 2. cache-components：Next.js 项目别乱写缓存
+## 2. [cache-components](https://github.com/vercel/next.js/tree/canary/.claude-plugin/plugins/cache-components/skills/cache-components)：Next.js 项目别乱写缓存
 
 这个 Skill 更偏 Next.js。
 
@@ -82,7 +99,7 @@ npx -y skills add <GitHub 仓库> -g --skill <skill 名字> -y --full-depth
 
 小白不用一开始就背缓存概念。你只需要让 Codex 先判断：哪些内容可以缓存，哪些内容跟用户请求有关，哪些地方需要 Suspense 或动态流式渲染。
 
-## 3. fullstack-developer：从页面到接口一起拆
+## 3. [fullstack-developer](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/awesome_agent_skills/fullstack-developer)：从页面到接口一起拆
 
 很多人让 Codex 做功能，只会得到一个“看起来能跑”的页面，但没有真正的数据闭环。
 
@@ -96,7 +113,7 @@ npx -y skills add <GitHub 仓库> -g --skill <skill 名字> -y --full-depth
 
 它的价值不是替你省掉所有技术判断，而是帮你把混乱的东西排一下队。
 
-## 4. frontend-code-review：专门审前端改动
+## 4. [frontend-code-review](https://github.com/langgenius/dify/tree/main/.agents/skills/frontend-code-review)：专门审前端改动
 
 如果你改了 `.tsx`、`.ts`、`.js` 文件，想在提交前看有没有组件写法、性能、样式、业务逻辑问题，可以用它。
 
@@ -108,7 +125,7 @@ npx -y skills add <GitHub 仓库> -g --skill <skill 名字> -y --full-depth
 
 小白最好要求它“基于 diff 审”，不要让它对整个项目泛泛点评。好的 review 应该带文件、行号、问题原因和建议修法。
 
-## 5. code-reviewer：通用代码审查
+## 5. [code-reviewer](https://github.com/google-gemini/gemini-cli/tree/main/.gemini/skills/code-reviewer)：通用代码审查
 
 这个更通用。
 
@@ -122,7 +139,7 @@ npx -y skills add <GitHub 仓库> -g --skill <skill 名字> -y --full-depth
 
 这个 Skill 的价值是让 Codex 进入“审查者模式”。它不应该只是总结你改了什么，而是要主动找可能出问题的地方。
 
-## 6. webapp-testing：别只看代码，要打开页面测
+## 6. [webapp-testing](https://github.com/anthropics/skills/tree/main/skills/webapp-testing)：别只看代码，要打开页面测
 
 网页项目最容易出现的问题是：代码看着对，页面一打开就错位、按钮没反应、接口报错。
 
@@ -136,7 +153,7 @@ npx -y skills add <GitHub 仓库> -g --skill <skill 名字> -y --full-depth
 
 做登录、表单、弹窗、列表、搜索、筛选、设置页时，这个 Skill 特别有用。
 
-## 7. pr-creator：让 Codex 帮你发一个像样的 PR
+## 7. [pr-creator](https://github.com/google-gemini/gemini-cli/tree/main/.gemini/skills/pr-creator)：让 Codex 帮你发一个像样的 PR
 
 代码写完以后，还有协作成本。
 
@@ -150,7 +167,7 @@ npx -y skills add <GitHub 仓库> -g --skill <skill 名字> -y --full-depth
 
 提醒一句：涉及提交、推送、创建 PR 的操作，要让 Codex 先解释它准备做什么。尤其是推送前，自己看一眼分支名。
 
-## 8. fix：提交前先扫格式和 lint
+## 8. [fix](https://github.com/facebook/react/tree/main/.claude/skills/fix)：提交前先扫格式和 lint
 
 很多 CI 失败跟功能没关系。格式不对、变量没用、lint 规则没过，都可能让你在小事上耗半天。
 
@@ -162,7 +179,7 @@ npx -y skills add <GitHub 仓库> -g --skill <skill 名字> -y --full-depth
 
 注意，不同项目的命令不一定一样。React 这个 Skill 里写的是 `yarn prettier` 和 `yarn linc`，但你自己的项目可能是 `npm run lint`、`pnpm lint` 或别的命令。所以更稳的说法是让 Codex 先读项目脚本再跑。
 
-## 9. update-docs：代码改了，文档别漏
+## 9. [update-docs](https://github.com/vercel/next.js/tree/canary/.claude/skills/update-docs)：代码改了，文档别漏
 
 文档这件事很尴尬。大家都知道它重要，但真的改代码时，很容易忘。
 
@@ -182,7 +199,7 @@ npx -y skills add <GitHub 仓库> -g --skill <skill 名字> -y --full-depth
 
 功能做出来只是第一步，别人知道怎么用才算完整交付。
 
-## 10. find-skills：遇到新任务先找现成 Skill
+## 10. [find-skills](https://github.com/vercel-labs/skills/tree/main/skills/find-skills)：遇到新任务先找现成 Skill
 
 这个 Skill 适合放在第一个用。
 
