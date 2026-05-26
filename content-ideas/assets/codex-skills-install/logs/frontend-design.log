@@ -1,0 +1,64 @@
+Installing frontend-design from anthropics/skills
+
+│
+●   codex  Agent detected — installing non-interactively
+[?25l│
+◇  Source: https://github.com/anthropics/skills.git
+[?25h[?25l│
+◒  Cloning repository[999D[J◐  Cloning repository[999D[J◓  Cloning repository[999D[J◑  Cloning repository[999D[J◒  Cloning repository[999D[J◐  Cloning repository[999D[J◓  Cloning repository[999D[J◑  Cloning repository[999D[J◒  Cloning repository.[999D[J◐  Cloning repository.[999D[J◓  Cloning repository.[999D[J◑  Cloning repository.[999D[J◒  Cloning repository.[999D[J◐  Cloning repository.[999D[J◓  Cloning repository.[999D[J◑  Cloning repository.[999D[J◒  Cloning repository..[999D[J◐  Cloning repository..[999D[J◓  Cloning repository..[999D[J◑  Cloning repository..[999D[J◒  Cloning repository..[999D[J◐  Cloning repository..[999D[J◓  Cloning repository..[999D[J◑  Cloning repository..[999D[J◒  Cloning repository...[999D[J◐  Cloning repository...[999D[J◓  Cloning repository...[999D[J◑  Cloning repository...[999D[J◒  Cloning repository...[999D[J◐  Cloning repository...[999D[J◓  Cloning repository...[999D[J◑  Cloning repository...[999D[J◒  Cloning repository...[999D[J◐  Cloning repository[999D[J◓  Cloning repository[999D[J◑  Cloning repository[999D[J◒  Cloning repository[999D[J◐  Cloning repository[999D[J◓  Cloning repository[999D[J◑  Cloning repository[999D[J◒  Cloning repository[999D[J◐  Cloning repository.[999D[J◓  Cloning repository.[999D[J◑  Cloning repository.[999D[J◒  Cloning repository.[999D[J◐  Cloning repository.[999D[J◓  Cloning repository.[999D[J◑  Cloning repository.[999D[J◒  Cloning repository.[999D[J◐  Cloning repository..[999D[J◓  Cloning repository..[999D[J◑  Cloning repository..[999D[J◒  Cloning repository..[999D[J◇  Repository cloned
+[?25h[?25l│
+[999D[J◇  Found 18 skills
+[?25h│
+●  Selected 1 skill: frontend-design
+
+│
+◇  Installation Summary ────────────────────────────────────╮
+│                                                           │
+│                                                           │
+│  Example Skills                                           │
+│                                                           │
+│  ~/.agents/skills/frontend-design                         │
+│    copy → Codex, Amp, Antigravity, Cline, Cursor +8 more  │
+│    overwrites: Codex, Cline, Dexto, Warp                  │
+│                                                           │
+├───────────────────────────────────────────────────────────╯
+│
+◇  Security Risk Assessments ─────────────────────────────────────╮
+│                                                                 │
+│                   Gen               Socket            Snyk      │
+│  frontend-design  Safe              0 alerts          Low Risk  │
+│                                                                 │
+│  Details: https://skills.sh/anthropics/skills                   │
+│                                                                 │
+├─────────────────────────────────────────────────────────────────╯
+[?25l│
+[999D[J◇  Installation complete
+[?25h
+│
+◇  Installed 1 skill ────────────────────╮
+│                                        │
+│                                        │
+│  Example Skills                        │
+│  ✓ frontend-design (copied)            │
+│    → ~/.agents/skills/frontend-design  │
+│    → ~/.agents/skills/frontend-design  │
+│    → ~/.agents/skills/frontend-design  │
+│    → ~/.agents/skills/frontend-design  │
+│    → ~/.agents/skills/frontend-design  │
+│    → ~/.agents/skills/frontend-design  │
+│    → ~/.agents/skills/frontend-design  │
+│    → ~/.agents/skills/frontend-design  │
+│    → ~/.agents/skills/frontend-design  │
+│    → ~/.agents/skills/frontend-design  │
+│    → ~/.agents/skills/frontend-design  │
+│    → ~/.agents/skills/frontend-design  │
+│    → ~/.agents/skills/frontend-design  │
+│                                        │
+├────────────────────────────────────────╯
+
+│
+└  Done!  Review skills before use; they run with full agent permissions.
+
+
+--- status after install ---
+OK: frontend-design is present

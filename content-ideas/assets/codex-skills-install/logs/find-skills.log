@@ -1,0 +1,58 @@
+Installing find-skills from vercel-labs/skills
+
+│
+●   codex  Agent detected — installing non-interactively
+[?25l│
+◇  Source: https://github.com/vercel-labs/skills.git
+[?25h[?25l│
+◒  Cloning repository[999D[J◐  Cloning repository[999D[J◓  Cloning repository[999D[J◑  Cloning repository[999D[J◒  Cloning repository[999D[J◐  Cloning repository[999D[J◓  Cloning repository[999D[J◑  Cloning repository[999D[J◒  Cloning repository.[999D[J◐  Cloning repository.[999D[J◓  Cloning repository.[999D[J◑  Cloning repository.[999D[J◒  Cloning repository.[999D[J◐  Cloning repository.[999D[J◓  Cloning repository.[999D[J◑  Cloning repository.[999D[J◒  Cloning repository..[999D[J◐  Cloning repository..[999D[J◓  Cloning repository..[999D[J◑  Cloning repository..[999D[J◒  Cloning repository..[999D[J◐  Cloning repository..[999D[J◓  Cloning repository..[999D[J◑  Cloning repository..[999D[J◒  Cloning repository...[999D[J◐  Cloning repository...[999D[J◓  Cloning repository...[999D[J◑  Cloning repository...[999D[J◒  Cloning repository...[999D[J◐  Cloning repository...[999D[J◓  Cloning repository...[999D[J◑  Cloning repository...[999D[J◒  Cloning repository...[999D[J◐  Cloning repository[999D[J◓  Cloning repository[999D[J◑  Cloning repository[999D[J◒  Cloning repository[999D[J◐  Cloning repository[999D[J◓  Cloning repository[999D[J◑  Cloning repository[999D[J◒  Cloning repository[999D[J◇  Repository cloned
+[?25h[?25l│
+[999D[J◇  Found 1 skill
+[?25h│
+●  Selected 1 skill: find-skills
+
+│
+◇  Installation Summary ────────────────────────────────────╮
+│                                                           │
+│  ~/.agents/skills/find-skills                             │
+│    copy → Codex, Amp, Antigravity, Cline, Cursor +8 more  │
+│                                                           │
+├───────────────────────────────────────────────────────────╯
+│
+◇  Security Risk Assessments ─────────────────────────────────╮
+│                                                             │
+│               Gen               Socket            Snyk      │
+│  find-skills  Safe              0 alerts          Med Risk  │
+│                                                             │
+│  Details: https://skills.sh/vercel-labs/skills              │
+│                                                             │
+├─────────────────────────────────────────────────────────────╯
+[?25l│
+[999D[J◇  Installation complete
+[?25h
+│
+◇  Installed 1 skill ────────────────╮
+│                                    │
+│  ✓ find-skills (copied)            │
+│    → ~/.agents/skills/find-skills  │
+│    → ~/.agents/skills/find-skills  │
+│    → ~/.agents/skills/find-skills  │
+│    → ~/.agents/skills/find-skills  │
+│    → ~/.agents/skills/find-skills  │
+│    → ~/.agents/skills/find-skills  │
+│    → ~/.agents/skills/find-skills  │
+│    → ~/.agents/skills/find-skills  │
+│    → ~/.agents/skills/find-skills  │
+│    → ~/.agents/skills/find-skills  │
+│    → ~/.agents/skills/find-skills  │
+│    → ~/.agents/skills/find-skills  │
+│    → ~/.agents/skills/find-skills  │
+│                                    │
+├────────────────────────────────────╯
+
+│
+└  Done!  Review skills before use; they run with full agent permissions.
+
+
+--- status after install ---
+OK: find-skills is present
