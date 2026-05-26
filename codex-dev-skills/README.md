@@ -5,7 +5,7 @@
 适合发给公众号读者的最短安装方式：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/dontbesilent2025/dbskill/main/codex-dev-skills/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/siuserxiaowei/dbskill/main/codex-dev-skills/install.sh | bash
 ```
 
 如果已经 clone 了这个仓库，也可以在仓库根目录运行：
