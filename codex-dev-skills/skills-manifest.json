@@ -1,67 +1,67 @@
 {
-  "name": "codex-dev-skills-for-beginners",
+  "name": "codex-skills-guide",
   "description": "10 beginner-friendly Codex development skills with install commands, screenshots, and usage guidance.",
-  "sourceWiki": "https://bytedance.larkoffice.com/wiki/YQWWwcyEBiVWrskcgPkcSPIOntb",
+  "article": "../article.md",
   "skills": [
-    {
-      "name": "find-skills",
-      "source": "vercel-labs/skills",
-      "install": "npx -y skills add vercel-labs/skills -g --skill find-skills -y --full-depth",
-      "screenshot": "../content-ideas/assets/codex-skills-install/screenshots/10-find-skills.png"
-    },
     {
       "name": "frontend-design",
       "source": "anthropics/skills",
       "install": "npx -y skills add anthropics/skills -g --skill frontend-design -y --full-depth",
-      "screenshot": "../content-ideas/assets/codex-skills-install/screenshots/01-frontend-design.png"
-    },
-    {
-      "name": "webapp-testing",
-      "source": "anthropics/skills",
-      "install": "npx -y skills add anthropics/skills -g --skill webapp-testing -y --full-depth",
-      "screenshot": "../content-ideas/assets/codex-skills-install/screenshots/06-webapp-testing.png"
-    },
-    {
-      "name": "fullstack-developer",
-      "source": "Shubhamsaboo/awesome-llm-apps",
-      "install": "npx -y skills add Shubhamsaboo/awesome-llm-apps -g --skill fullstack-developer -y --full-depth",
-      "screenshot": "../content-ideas/assets/codex-skills-install/screenshots/03-fullstack-developer.png"
+      "screenshot": "../assets/codex-skills-install/screenshots/01-frontend-design.png"
     },
     {
       "name": "cache-components",
       "source": "vercel/next.js",
       "install": "npx -y skills add vercel/next.js -g --skill cache-components -y --full-depth",
-      "screenshot": "../content-ideas/assets/codex-skills-install/screenshots/02-cache-components.png"
+      "screenshot": "../assets/codex-skills-install/screenshots/02-cache-components.png"
     },
     {
-      "name": "fix",
-      "source": "facebook/react",
-      "install": "npx -y skills add facebook/react -g --skill fix -y --full-depth",
-      "screenshot": "../content-ideas/assets/codex-skills-install/screenshots/08-fix.png"
-    },
-    {
-      "name": "code-reviewer",
-      "source": "google-gemini/gemini-cli",
-      "install": "npx -y skills add google-gemini/gemini-cli -g --skill code-reviewer -y --full-depth",
-      "screenshot": "../content-ideas/assets/codex-skills-install/screenshots/05-code-reviewer.png"
+      "name": "fullstack-developer",
+      "source": "Shubhamsaboo/awesome-llm-apps",
+      "install": "npx -y skills add Shubhamsaboo/awesome-llm-apps -g --skill fullstack-developer -y --full-depth",
+      "screenshot": "../assets/codex-skills-install/screenshots/03-fullstack-developer.png"
     },
     {
       "name": "frontend-code-review",
       "source": "langgenius/dify",
       "install": "npx -y skills add langgenius/dify -g --skill frontend-code-review -y --full-depth",
-      "screenshot": "../content-ideas/assets/codex-skills-install/screenshots/04-frontend-code-review.png"
+      "screenshot": "../assets/codex-skills-install/screenshots/04-frontend-code-review.png"
+    },
+    {
+      "name": "code-reviewer",
+      "source": "google-gemini/gemini-cli",
+      "install": "npx -y skills add google-gemini/gemini-cli -g --skill code-reviewer -y --full-depth",
+      "screenshot": "../assets/codex-skills-install/screenshots/05-code-reviewer.png"
+    },
+    {
+      "name": "webapp-testing",
+      "source": "anthropics/skills",
+      "install": "npx -y skills add anthropics/skills -g --skill webapp-testing -y --full-depth",
+      "screenshot": "../assets/codex-skills-install/screenshots/06-webapp-testing.png"
     },
     {
       "name": "pr-creator",
       "source": "google-gemini/gemini-cli",
       "install": "npx -y skills add google-gemini/gemini-cli -g --skill pr-creator -y --full-depth",
-      "screenshot": "../content-ideas/assets/codex-skills-install/screenshots/07-pr-creator.png"
+      "screenshot": "../assets/codex-skills-install/screenshots/07-pr-creator.png"
+    },
+    {
+      "name": "fix",
+      "source": "facebook/react",
+      "install": "npx -y skills add facebook/react -g --skill fix -y --full-depth",
+      "screenshot": "../assets/codex-skills-install/screenshots/08-fix.png"
     },
     {
       "name": "update-docs",
       "source": "vercel/next.js",
       "install": "npx -y skills add vercel/next.js -g --skill update-docs -y --full-depth",
-      "screenshot": "../content-ideas/assets/codex-skills-install/screenshots/09-update-docs.png"
+      "screenshot": "../assets/codex-skills-install/screenshots/09-update-docs.png"
+    },
+    {
+      "name": "find-skills",
+      "source": "vercel-labs/skills",
+      "install": "npx -y skills add vercel-labs/skills -g --skill find-skills -y --full-depth",
+      "screenshot": "../assets/codex-skills-install/screenshots/10-find-skills.png"
     }
   ]
 }

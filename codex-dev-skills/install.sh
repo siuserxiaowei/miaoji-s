@@ -2,16 +2,16 @@
 set -euo pipefail
 
 skills=(
-  "vercel-labs/skills find-skills"
   "anthropics/skills frontend-design"
-  "anthropics/skills webapp-testing"
-  "Shubhamsaboo/awesome-llm-apps fullstack-developer"
   "vercel/next.js cache-components"
-  "facebook/react fix"
-  "google-gemini/gemini-cli code-reviewer"
+  "Shubhamsaboo/awesome-llm-apps fullstack-developer"
   "langgenius/dify frontend-code-review"
+  "google-gemini/gemini-cli code-reviewer"
+  "anthropics/skills webapp-testing"
   "google-gemini/gemini-cli pr-creator"
+  "facebook/react fix"
   "vercel/next.js update-docs"
+  "vercel-labs/skills find-skills"
 )
 
 echo "Installing 10 Codex dev skills..."
