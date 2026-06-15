@@ -1,5 +1,59 @@
 # 妙记+S
 
+<!-- SIUSER-REPO-GUIDE:START -->
+## Repository Guide
+
+### What This Repository Does
+
+妙记+S Skill：监控飞书会议并把会议纪要收口成结构化知识资产。
+
+English summary: Miaoji+S skill for monitoring Feishu meetings and turning minutes into structured knowledge assets.
+
+### Online Entry Points
+
+- GitHub repository: https://github.com/siuserxiaowei/miaoji-s
+- Live / GitHub Pages: not configured for this repository
+- Default branch: `main`
+- Primary language: `not specified`
+
+### How To Read / Learn This Repository
+
+1. 先读本 README，确认项目目标、在线入口和本地运行方式。
+2. 优先阅读线上页面或 `index.html`，再看 `data/`、`assets/`、`scripts/` 等生成材料。
+3. 如果要修改内容，先小范围改动，再运行本 README 中的验证命令。
+
+### Clone This Repository
+
+```bash
+git clone https://github.com/siuserxiaowei/miaoji-s.git
+cd miaoji-s
+```
+
+### Run Or View Locally
+
+这个仓库没有检测到固定本地运行命令。通常可以直接阅读 README、源码、数据文件或线上页面；如需运行，请先查看仓库内的脚本和配置文件。
+
+### Repository Map
+
+| Path | Purpose |
+| --- | --- |
+| `README.md` | 项目入口说明，先读这里。 |
+| `skills/` | 项目目录。 |
+
+### Maintenance Notes
+
+- Keep this README in sync when the project purpose, live link, or run commands change.
+- Prefer small, focused commits when changing code, data, or generated pages.
+- Run the relevant build or validation command before publishing changes.
+- If this is a generated/static archive, update the source data first, then regenerate the public files.
+
+### Privacy And Safety
+
+- Do not commit API keys, tokens, passwords, cookies, private URLs, or internal account data.
+- Keep private source material out of public GitHub Pages output unless it has been explicitly cleared for publication.
+- When in doubt, run a quick secret scan such as `rg -n "token|secret|password|access_key|authorization"` before pushing.
+<!-- SIUSER-REPO-GUIDE:END -->
+
 飞书会议监控与会议纪要收口 Skill。
 
 `miaoji-s` 的核心不是写泛泛的会议总结，而是定时监控飞书会议 / 妙记：发现新录音后，自动生成对应的飞书在线纪要文档，并把新文档链接收口到总索引里，方便后续回查、分发和复盘。
